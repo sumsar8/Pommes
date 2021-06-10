@@ -1,0 +1,31 @@
+body,p{
+    margin:0px;
+    background-color: #15121C;
+}
+
+.middlebox{
+    background-color: #1D1C25;
+    width:80vw;
+    height:80vh;
+    margin-left:10vw;
+    margin-top: 10vh;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.mainboxtext{
+    color:#F2EFF5;
+    padding:17%;
+    font-size: 5rem;
+}
+
+.downbox{
+    width:12vw;
+    height:10vh;
+    border-radius: 20px;
+    background-color: #EF4B56;
+    margin-left:45vw;
+}
+p.downtext{
+    color:#1A1A1A;
+}
