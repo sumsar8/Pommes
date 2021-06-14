@@ -1,0 +1,28 @@
+body,p{
+    margin:0px;
+    background-color: #15121C;
+    font-family: 'Roboto', sans-serif;
+}
+.selfiebox{
+    width: 15vw;
+    height: 40vh;
+    margin-left: 8vw;
+    margin-top: 10vh    ;
+    background-color: #F2EFF5;
+}
+.selfieboxcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.transparentnamnbox{
+    width: 110%;
+    height: 10%;
+    background-color: #15121C;
+    opacity: 80%;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: -16%;
+}
+a.whitetext{
+    color:#F2EFF5;
+}
