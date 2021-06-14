@@ -37,7 +37,7 @@ html {
     text-decoration: none;
     text-align: center;
     -webkit-animation-fill-mode: forwards;   
-    animation: nertoupp 5s 1;
+    : nertoupp 5s 1;
 }
 .redbox{
     width:90vw;
@@ -62,7 +62,7 @@ html {
     background-color: #F2EFF5;
     margin-bottom: 30vh;
 }
-@keyframes nertouppasdasdsasd{
+@keyframes nertoupp{
     0% {margin-left: 44vw;}
     20% {margin-left: 88vw;}
     21% {top:90vh}
