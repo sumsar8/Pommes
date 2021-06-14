@@ -1,6 +1,11 @@
 body,p{
     margin:0px;
     background-color: #15121C;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .middlebox{
@@ -24,8 +29,43 @@ body,p{
     height:10vh;
     border-radius: 20px;
     background-color: #EF4B56;
-    margin-left:45vw;
-}
-p.downtext{
+    margin-left:44vw;
+    position: fixed;
+    top:89vh;
     color:#1A1A1A;
+    font-size: 3rem;
+    text-decoration: none;
+    text-align: center;
+    -webkit-animation-fill-mode: forwards;   
+    animation: nertoupp 5s 1;
+}
+.redbox{
+    width:90vw;
+    height:1vh;
+    background-color: #EF4B56;
+    margin-top: 20vh;
+    margin-left: 5vw;
+}
+.filler{
+    height:20vh;
+    width:1px;
+}
+
+.boxcontainer{
+    display:flex;   
+}
+
+.box1{
+    width:20vw;
+    height:50vh;
+    margin-left:10vw;
+    background-color: #F2EFF5;
+    margin-bottom: 30vh;
+}
+@keyframes nertoupp{
+    0% {margin-left: 44vw;}
+    20% {margin-left: 88vw;}
+    21% {top:90vh}
+    40% {top:0px;}
+    100%    
 }
