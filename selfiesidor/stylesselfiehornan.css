@@ -7,7 +7,7 @@ body,p{
     width: 15vw;
     height: 40vh;
     margin-left: 8vw;
-    margin-top: 10vh    ;
+    margin-bottom: 10vh    ;
     background-color: #F2EFF5;
     border-color:red;
     border-width:2px;
@@ -16,6 +16,7 @@ body,p{
 .selfieboxcontainer{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 5vh;
 }
 .transparentnamnbox{
     width: 100%;
