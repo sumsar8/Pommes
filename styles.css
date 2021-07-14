@@ -74,6 +74,26 @@ html {
     margin-left:10vw;
     background-color: #F2EFF5;
     margin-bottom: 30vh;
+    border-color:#EF4B56;
+    border-width:2px;
+    border-style: solid;
+}
+.transparentnamnbox{
+    width: 100%;
+    height: 10%;
+    background-color: #15121C;
+    opacity: 80%;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: -17%;
+}
+a.whitetext{
+    color:#F2EFF5;
+}
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 @keyframes nertoupp{
     0% {margin-left: 44vw;font-size: 3rem;}
